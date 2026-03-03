@@ -1,0 +1,8 @@
+services:
+  taskapi:
+    image: taskapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
